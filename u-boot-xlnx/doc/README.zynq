@@ -26,6 +26,7 @@ and I/O programmability.
   - zc770-xm011 (8 or 16 bit nand)
   - zc770-xm012 (nor)
   - zc770-xm013 (dual parallel qspi, gem1)
+* Zyncberry
 
 3. Building
 
@@ -57,7 +58,7 @@ bootmode strings at runtime.
 
 - Added basic board configurations support.
 - Added zynq u-boot bsp code - arch/arm/cpu/armv7/zynq
-- Added zynq boards named - zc70x, zed, microzed, zc770_xm010, zc770_xm012, zc770_xm013
+- Added zynq boards named - zc70x, zed, microzed, zc770_xm010, zc770_xm012, zc770_xm013, zynqberry
 - Added zynq drivers:
   serial - drivers/serial/serial_zynq.c
   net - drivers/net/zynq_gem.c

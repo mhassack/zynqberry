@@ -54,6 +54,9 @@ config TARGET_ZYNQ_CC108
 	bool "Zynq CC108 Board"
 	select ZYNQ_CUSTOM_INIT
 
+config TARGET_ZYNQ_ZYNQBERRY
+	bool "Zynq Zynqberry"
+
 endchoice
 
 config SYS_BOARD
@@ -76,5 +79,6 @@ config SYS_CONFIG_NAME
 	default "zynq_cse" if TARGET_ZYNQ_CSE
 	default "zynq_afx" if TARGET_ZYNQ_AFX
 	default "zynq_cc108" if TARGET_ZYNQ_CC108
+	default "zynq_zynqberry" if TARGET_ZYNQ_ZYNQBERRY
 
 endif
